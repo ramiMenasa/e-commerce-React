@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="row">
+                <a href="#" class="brand">Banda</a>
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li>
+                        <div class="search-bar">
+                            <input id="search" type="text" placeholder="Search" class="search-input">
+                            <button type="submit" class="search-button">Search</button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="cart">
+                    <li><a href="#" class="nav-link"><i class="fa-solid fa-cart-shopping"></i><sup>1</sup></a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+<!-- endNavbar -->
+<!-- hero section -->
+    <section class="hero">
+        <div class="hero-content">
+          <h1>Welcome to Banda</h1>
+          <p>Discover the latest trends in fashion</p>
+          <a href="#" class="btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+             Cart</a>
+        </div>
+    </section>
+<!-- endHero -->
+<!-- main section -->
+    <div class="main">
+        <div class="container">
+            <div class="title">
+                <h1>All Catigories</h1> 
+                <span>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</span>
+            </div>
+            <div id="containerCards" class="row ">
+
+            </div>
+        </div>
+    </div>
+
+<!-- end main section -->
+<!-- filterSection -->
+    <div class="filterContainer">
+        <div class="radio-group">
+            <h2>Catiogries</h2>
+            <label class="radio">
+              <input type="radio" name="category" value="men's clothing">
+              <span class="checkmark"></span>
+              Men
+            </label>
+            <label class="radio">
+              <input type="radio" name="category" value="jewelery">
+              <span class="checkmark"></span>
+              jewelery
+            </label>
+            <label class="radio">
+              <input type="radio" name="category" value="women's clothing">
+              <span class="checkmark"></span>
+              women
+            </label>
+            <label class="radio">
+                <input type="radio" name="category" value="electronics">
+                <span class="checkmark"></span>
+                electronics
+              </label>
+          </div>          
+          <!-- sortBy -->
+          <div class="radio-group">
+            <h2>Sort by price</h2>
+            <label class="radio">
+              <input type="radio" name="category" value="none">
+              <span class="checkmark"></span>
+              none
+            </label>
+            <label class="radio">
+              <input type="radio" name="category" value="increase">
+              <span class="checkmark"></span>
+              increase
+            </label>
+            <label class="radio">
+              <input type="radio" name="category" value="decrease">
+              <span class="checkmark"></span>
+              decrease
+            </label>
+          </div>          
+    </div>
+<!-- endFilterSection -->
+<!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus magna non est fermentum, sit
+                        amet euismod nisi ultrices.</p>
+                </div>
+                <div class="col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@example.com</p>
+                    <p>Phone: +1234567890</p>
+                </div>
+                <div class="col">
+                    <p>&copy; 2024 Your E-commerce Store. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- endFotter -->
+    <script src="https://kit.fontawesome.com/2a2e54b9f8.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
